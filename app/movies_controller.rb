@@ -26,7 +26,6 @@ end
 def can_be_created_in_a_block(args = nil)
 
   Movie.create do |m|
-    binding.pry
   end
 end
 
