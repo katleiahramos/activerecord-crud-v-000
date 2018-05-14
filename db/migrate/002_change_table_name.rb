@@ -1,8 +1,7 @@
-class ChangeTableName < ActiveRecord::Migration[5.1]
+class ChangeTableName < ActiveRecord::Migration
     def change
       rename_table :moves, :movies
     end
-  
 
 
 end
